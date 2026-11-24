@@ -63,3 +63,10 @@ gcc main.c -o grafo_dependencias -Wall -Wextra
 * **Relatório e interface:** `exibirGrafo`, `exibirRelatorioBusca`, `selecionarVertice`, `perguntarUsarObjetivo` e `main`.
 
 ---
+
+### Participantes
+
+**Conrado Henrique Lima da Mata**
+**Giovane Soldera Ribeiro**
+**João Felipe Aleixo de Melo**
+**Luis Gustavo Roque Desiderio da Silva**
