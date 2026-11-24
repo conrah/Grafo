@@ -1,6 +1,6 @@
 # Grafo de Dependências em C — Atividade Avaliativa 3
 
-Implementação em linguagem **C** de um grafo direcionado de dependências entre módulos e bibliotecas de um sistema de software, desenvolvido para a **Atividade Avaliativa 3** (tema: *Implementação de grafos em C*, metodologia: *Aprendizagem por projeto*)[cite: 1].
+Implementação em linguagem **C** de um grafo direcionado de dependências entre módulos e bibliotecas de um sistema de software, desenvolvido para a **Atividade Avaliativa 3** (tema: *Implementação de grafos em C*, metodologia: *Aprendizagem por projeto*).
 
 ---
 
@@ -23,14 +23,14 @@ O grafo representa dependências direcionadas (onde `A -> B` significa que `A` d
 
 ## Requisitos Atendidos
 
-1. **Menu interativo:** permite exibir a estrutura do grafo, executar buscas e encerrar o programa com segurança[cite: 1].
-2. **Busca em profundidade (DFS):** implementada de forma recursiva (`dfsRecursivo`) com *backtracking* no retorno das chamadas e interrupção antecipada quando um objetivo é encontrado (quando aplicável)[cite: 1].
+1. **Menu interativo:** permite exibir a estrutura do grafo, executar buscas e encerrar o programa com segurança.
+2. **Busca em profundidade (DFS):** implementada de forma recursiva (`dfsRecursivo`) com *backtracking* no retorno das chamadas e interrupção antecipada quando um objetivo é encontrado (quando aplicável).
 3. **Busca em largura (BFS):** implementada com uma estrutura de fila (`Fila`, `enfileirar` e `desenfileirar`) para exploração por níveis.
 4. **Caminho percorrido:** exibe de forma organizada a sequência de vértices visitados durante cada busca.
-5. **Dados gerais da busca:** apresenta um relatório ao final de cada execução contendo[cite: 1]:
+5. **Dados gerais da busca:** apresenta um relatório ao final de cada execução contendo:
    * Vértice de origem.
    * Vértice objetivo e indicação se foi encontrado ou não (quando um objetivo é definido).
-   * Vértices visitados[cite: 1]
+   * Vértices visitados.
    * Quantidade de vértices visitados.
    * Quantidade de arestas percorridas.
    * Caminho percorrido.
